@@ -11,14 +11,13 @@ We leverage a pre-trained model on ImageNet and fine-tune its final layers to ad
 ## ⚙️ Setup Instructions
 
 ### 1. Create and Activate a Python Environment in Anaconda
-``
+```
 conda create -n torch_env python=3.10
 conda activate torch_env
 ```
-
 ### 2. Install Dependencies
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -41,7 +40,7 @@ data/
     panda/
 ```
 
----
+
 
 ## 🚀 CUDA & GPU Verification
 
@@ -56,7 +55,7 @@ print("Device:", torch.device("cuda" if torch.cuda.is_available() else "cpu"))
 
 If `True`, your model will automatically train using GPU for faster computation.
 
----
+
 
 ## 🏗️ Model Architecture
 
@@ -72,7 +71,7 @@ Training configuration:
 * **Epochs**: 3
 * **Batch Size**: 10
 
----
+
 
 ## 📊 Evaluation
 
