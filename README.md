@@ -24,8 +24,8 @@ pip install -r requirements.txt
 ## 🧠 Dataset
 
 The dataset is organized into separate training, validation, and testing sets to assess the model’s accuracy and generalization performance.
-Dataset Link: https://drive.google.com/drive/folders/1RULxsjUArZXb7JInU94_KyH67lKYHUKy?usp=drive_link
-Folder structure after extraction:
+##### Dataset Link: https://drive.google.com/drive/folders/1RULxsjUArZXb7JInU94_KyH67lKYHUKy?usp=drive_link
+##### Folder structure after extraction:
 
 ```
 data/
