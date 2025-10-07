@@ -21,8 +21,6 @@ conda activate torch_env
 pip install -r requirements.txt
 ```
 
----
-
 ## 🧠 Dataset
 
 The dataset is organized into separate training, validation, and testing sets to assess the model’s accuracy and generalization performance.
